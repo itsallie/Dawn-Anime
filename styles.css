@@ -1,0 +1,243 @@
+
+/* all the html files */
+body {
+    background-image: url("https://wallpapercave.com/wp/wp3791017.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#mainNav .navbar-brand {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color: #b6ccfe;
+    text-shadow: 2px 2px 4px #000000
+}
+
+#mainNav .nav-link {
+    font-size: 20px;
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    color: #8187dc;
+}
+
+.nav-bg {
+    background-color: rgba(0, 0, 0, 0.336);
+    margin: 0;
+    padding: 0; 
+} 
+
+.bg {
+    width: 100%;
+    background-image: url("https://i.gifer.com/2r5w.gif");
+    background-size: contain;
+    background-color: rgba(255, 235, 205, 0.272);
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(230, 230, 250, 0.363);
+}
+
+svg {
+    margin: 0 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+/* home page */
+#homeContent {
+    margin: 5px;
+}
+
+#homeTitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.wordDawn {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 60px;
+    color: #b6ccfe;
+    text-shadow: 2px 2px 4px #000000
+}
+
+#homeCaption {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+
+#homePic {
+    width: 100%;
+    margin-top: 100px;
+}
+
+hr{
+    margin: auto;
+    width: 80%;
+}
+
+#trendTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.card-img-top {
+    transition: 0.2s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.card-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* about page */
+#aboutPic{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: white;
+    margin: 20px;
+    text-shadow: 2px 2px 4px #000000
+}
+#greeting {
+    font-size: 50px;
+    font-weight: bold;
+}
+#aboutText {
+    font-size: 20px;
+    margin: 5px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #000000
+}
+
+/* anime page */
+#animeTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.animeText {
+  
+    font-size: 25px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#animeNav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seasons{
+    display: inline-block;
+}
+.btn {
+    margin-right: 50px;
+    font-size: 20px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #000000;
+    transition:0.2s;
+}
+
+.btn:hover{
+    color: #dab6fc;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.yearInput {
+    margin-left: 22%;
+    display: inline-block;
+    width: 10%;
+}
+
+
+
+
+/* contact page */
+#contactTitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+#contactText {
+    font-size: 25px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.formText {
+    font-size: 20px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #000000
+}
+
+
+
+
+
+/* mediq queries */
+@media screen and (max-width: 992px) {
+    #homeTitle {
+        margin-top: 50px;
+    }
+
+    #homePic {
+        margin-top: 5px;
+    }
+
+    .card {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    #aboutTitle {
+        padding-top: 20px;
+    }
+
+    .yearInput {
+        display: inline-block;
+        width: 150px;
+    }
+    
+    .seasons {
+        display: inline-block;
+    }
+    
+    .btn {
+        margin-left:10px;
+    } 
+}
