@@ -43,6 +43,7 @@ footer {
 }
 
 svg {
+    color: white;
     margin: 0 20px;
 }
 
@@ -145,8 +146,7 @@ hr{
 }
 
 .animeText {
-  
-    font-size: 25px;
+    font-size: 15px;
     color: lavender;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -179,6 +179,52 @@ hr{
     width: 10%;
 }
 
+.resultContent{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#anime {
+    margin: 10px 0;
+}
+
+.anime-item {
+    width: 20%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.anime-img {
+    width: 100%;
+    display: block;
+}
+
+.anime-title {
+    padding: 15px 5px;
+}
+
+.anime-title h3 {
+    font-size: 10px;
+}
+
+.synopsis-btn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size:20px;
+    padding: 10px 10px;
+    display: block;
+    width: 175px;
+    margin: 20px auto; 
+    border-radius: 30px;
+}
+
+
+
 
 
 
@@ -200,10 +246,6 @@ hr{
     color: lavender;
     text-shadow: 2px 2px 4px #000000
 }
-
-
-
-
 
 /* mediq queries */
 @media screen and (max-width: 992px) {

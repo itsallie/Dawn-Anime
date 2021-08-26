@@ -58,34 +58,31 @@
         <p class="animeText text-center">Enter a year and click on a season!</p>
 
         <div id="animeNav">
-            <input class="form-control yearInput" type="text" name="year" placeholder="Enter a Year">
+            <input id="year" class="form-control yearInput" type="text" name="year" placeholder="Enter a Year">
             <div class="seasons">
-                <button id="summer" class="btn">SUMMER</button>
-                <button id="spring" class="btn">SPRING</button>
-                <button id="winter" class="btn">WINTER</button>
-                <button id="fall" class="btn">FALL</button>
+                <button id="summer" class="btn" onclick="setSeason(this.id)">SUMMER</button>
+                <button id="spring" class="btn" onclick="setSeason(this.id)">SPRING</button>
+                <button id="winter" class="btn" onclick="setSeason(this.id)">WINTER</button>
+                <button id="fall" class="btn" onclick="setSeason(this.id)">FALL</button>
             </div>
         </div>
-
+        <hr>
+        <div class="resultContent">
+            <h2>Your Search Results:</h2>
+            <div id="anime">
+                <!-- anime item -->
+                <!-- <div class="anime-item">
+                    <div class="anime-img">
+                        <img class="img-fluid" src="https://cdn.myanimelist.net/images/anime/1548/116226.jpg">
+                    </div>
+                    <div class="anime-title">
+                        <h3>My Hero Academia</h3>
+                        <a href="#" class="synopsis-btn">About</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- footer -->
