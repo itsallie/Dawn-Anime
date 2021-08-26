@@ -4,6 +4,7 @@ This website Dawn displays trending anime on the home page and seasonal anime fr
 Data was fetched from Jikan API (https://jikan.docs.apiary.io/) by using the method JSON.<br>
 The targeted audience is for people who loves to watch anime and finding new things to watch!
 <br>
+https://itsallie.github.io/Dawn-Anime/ <br>
 <br>
 Bootstrap was used in this website.<br>
 https://getbootstrap.com/
